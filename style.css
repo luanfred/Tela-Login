@@ -24,6 +24,7 @@ body {
     width: 400px;
     height: 400px;
     display: flex;
+    box-sizing: border-box;
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -76,4 +77,35 @@ body {
     font-family: Inter,sans-serif;
     text-decoration: none;
     margin: 10px;
+}
+
+
+@media only screen and (max-width: 600px) {
+    body {
+        flex-direction: column;
+    }
+
+    body * {
+        box-sizing: border-box;
+    }
+
+    .img {
+        display: none;
+    }
+
+    .login {
+        width: 90%;
+        height: 90%;
+        background-repeat: no-repeat;
+    }
+
+    .login form input {
+        width: 90%;
+    }
+
+    .login .entrar {
+        width: 90%;
+        align-items: center;
+        justify-content: center;
+    }
 }
