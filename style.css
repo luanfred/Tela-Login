@@ -1,0 +1,79 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    height: 100vh;
+    background-color: #051933;
+    background-image: url(https://cursos.alura.com.br/assets/images/login/luz-form.png);
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+}
+
+.img {
+    display: flex;
+    width: 400px;
+    height: 400px;
+    margin-right: 50px;
+}
+
+.login {
+    width: 400px;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-image: url(https://cursos.alura.com.br/assets/images/login/luz-form.png);
+    border: solid 2px #a3ffbf;
+    border-radius: 20px;
+}
+
+.login h1 {
+    color: #fff;
+    font-family: Inter,sans-serif;
+    margin-bottom: 15px;
+}
+
+.login label{
+    color: #fff;
+    font-family: Inter,sans-serif;
+    margin-left: 20px;
+}
+
+.login form input{
+    width: 360px;
+    height: 50px;
+    margin: 10px 20px;
+    border: solid 01px #a3ffbf;
+    border-radius: 0.5em;
+    background-color: #051933;
+}
+
+
+.login .entrar {
+    margin-top: 1.5em;
+    background-color: #a3ffbf;
+    color: #051932;
+    border-radius: 24px;
+    padding: 0.75em 1.1875em;
+    font-weight: 700;
+    text-transform: uppercase;
+    cursor: pointer;
+} 
+
+.login p{
+    color: #fff;
+    font-family: Inter,sans-serif;
+    margin-top: 10px;
+}
+
+.login a{
+    color: #fff;
+    font-family: Inter,sans-serif;
+    text-decoration: none;
+    margin: 10px;
+}
